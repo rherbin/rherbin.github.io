@@ -1,0 +1,11 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "iostream": "cpp",
+        "complex": "cpp",
+        "cstdlib": "cpp",
+        "vector": "cpp",
+        "iterator": "cpp",
+        "xutility": "cpp"
+    }
+}

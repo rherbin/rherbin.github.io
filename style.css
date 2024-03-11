@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+h2 logo{
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+}
+
+.header {
+    color: white;
+    height: 100px;
+}
+
+.maintitle {
+    height: 100vh;
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+.ttle {
+    font-size: 56px;
+    font-weight: 600;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: -0.005em;
+    color: #86868b;
+    line-height: 1.0714285714;
+}
