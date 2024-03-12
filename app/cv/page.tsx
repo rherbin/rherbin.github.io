@@ -69,14 +69,14 @@ export default function Cv(){
                             <h3 className="m-2 font-semibold text-xl">Passions</h3>
                             <ul className="p-4 list-disc">
                                 <li className="p-1">Informatique</li>
-                                <li className="p-1">Jeux-videos</li>
+                                <li className="p-1">Jeux-vidéos</li>
                                 <li className="p-1">Cinéma</li>
                                 <li className="p-1">Finance</li>
                             </ul>
                         </div>
                     </div>
 
-                    <Separator orientation="vertical" className="h-auto mb-2"></Separator>
+                    <Separator orientation="vertical" className="h-auto my-8"></Separator>
 
                     <div className="m-5 pl-3">
                         
@@ -84,26 +84,31 @@ export default function Cv(){
                             <h2 className="text-2xl m-5 font-bold">Formation</h2>
 
                             <div className="rounded-xl border-2 m-2 mr-5 p-6">
-                                <div className="font-bold">2015 - 2019</div><div>Collège Claude Debussy, Paris 75015 | Diplôme : Brevet des Collèges</div>
+                                <div className="font-bold mb-1">Depuis 2022</div><div>Université Paris Dauphine, Paris 75116</div><div>Licence Mathématiques Informatique</div>
                             </div>
 
                             <div className="rounded-xl border-2 m-2 mr-5 p-6">
-                                <div className="font-bold">2019 - 2021</div><div>Lycée Jean Baptiste Say, Paris 75016</div><div>Spécialités : Mathématiques - Physique Chimie - NSI</div>
+                                <div className="font-bold mb-1">2021 - 2022</div><div>Lycée Victor Duruy, Paris 75007 | Diplôme : Baccalauréat</div><div>Spécialités : Mathématiques - NSI</div>
                             </div>
 
                             <div className="rounded-xl border-2 m-2 mr-5 p-6">
-                                <div className="font-bold">2021 - 2022</div><div>Lycée Victor Duruy, Paris 75007 | Diplôme : Baccalauréat</div><div>Spécialités : Mathématiques - NSI</div>
+                                <div className="font-bold mb-1">2019 - 2021</div><div>Lycée Jean Baptiste Say, Paris 75016</div><div>Spécialités : Mathématiques - Physique Chimie - NSI</div>
                             </div>
 
                             <div className="rounded-xl border-2 m-2 mr-5 p-6">
-                                <div className="font-bold">Depuis 2022</div><div>Université Paris Dauphine, Paris 75116</div><div>License Mathématiques Informatique</div>
+                                <div className="font-bold mb-1">2015 - 2019</div><div>Collège Claude Debussy, Paris 75015 | Diplôme : Brevet des Collèges</div>
                             </div>
                         </div>
+
+                        <Separator className="w-auto mr-8 mt-8"></Separator>                        
 
                         <div className="my-5">
                             <h2 className="text-2xl m-5 font-bold">Expérience</h2>
                             <div className="rounded-xl border-2 m-2 mr-5 p-6">
-                                <div className="font-bold">2019 - Stage</div><div>Office National d&#39;Études et de Recherches Aérospatiales</div>
+                                <div className="font-bold mb-1">Mai 2023 - Juin 2023</div><div>Pharmacie Matignon - Assistant en Pharmacie</div><div>Logistique & Réorganisation des Rayons</div>
+                            </div>
+                            <div className="rounded-xl border-2 m-2 mr-5 p-6">
+                                <div className="font-bold mb-1">2019</div><div>Office National d&#39;Études et de Recherches Aérospatiales - Stage</div>
                             </div>
                         </div>
 
