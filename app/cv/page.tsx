@@ -69,7 +69,7 @@ export default function Cv(){
                             <h3 className="m-2 font-semibold text-xl">Passions</h3>
                             <ul className="p-4 list-disc">
                                 <li className="p-1">Informatique</li>
-                                <li className="p-1">Jeux-vidéos</li>
+                                <li className="p-1">Jeux vidéo</li>
                                 <li className="p-1">Cinéma</li>
                                 <li className="p-1">Finance</li>
                             </ul>
