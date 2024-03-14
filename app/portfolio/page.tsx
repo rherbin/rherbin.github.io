@@ -13,7 +13,7 @@ export default function Portfolio(){
                     <ProjectCard prurl="https://github.com/rherbin/fractals"></ProjectCard>
                     <ProjectCard prurl="https://github.com/rherbin/rosace"></ProjectCard>
                     <ProjectCard prurl="https://github.com/rherbin/collisions"></ProjectCard>
-                    <ProjectCard prurl="https://github.com/rherbin/shape_game"></ProjectCard>
+                    <ProjectCard prurl="https://github.com/rherbin/isoplot"></ProjectCard>
                 </div>
             </div>
         </div>
