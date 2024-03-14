@@ -9,10 +9,10 @@ export default function Portfolio(){
             <div className="flex justify-center items-center m-0 p-0">
                 <div className="grid grid-cols-2">
                     <ProjectCard prurl="https://github.com/rherbin/shape_game"></ProjectCard>
-                    <ProjectCard prurl="https://github.com/rherbin/shape_game"></ProjectCard>
-                    <ProjectCard prurl="https://github.com/rherbin/shape_game"></ProjectCard>
-                    <ProjectCard prurl="https://github.com/rherbin/shape_game"></ProjectCard>
-                    <ProjectCard prurl="https://github.com/rherbin/shape_game"></ProjectCard>
+                    <ProjectCard prurl="https://github.com/rherbin/solarsim"></ProjectCard>
+                    <ProjectCard prurl="https://github.com/rherbin/fractals"></ProjectCard>
+                    <ProjectCard prurl="https://github.com/rherbin/rosace"></ProjectCard>
+                    <ProjectCard prurl="https://github.com/rherbin/collisions"></ProjectCard>
                     <ProjectCard prurl="https://github.com/rherbin/shape_game"></ProjectCard>
                 </div>
             </div>
