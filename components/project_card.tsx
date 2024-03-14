@@ -14,7 +14,7 @@ export function ProjectCard({prurl}:{prurl:string}){
             <div className="m-4">
                 <h1 className="text-xl font-bold m-4">{prname}</h1>
                 <div className="text-sm text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident labore a voluptatibus odio quasi quia quidem quisquam possimus, dolore sed nobis pariatur ratione, ad omnis ab aut? Fugit, delectus harum?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident labore a voluptatibus odio quasi quia quidem quisquam possimus, dolore sed nobis pariatur ratione, ad omnis ab aut? Fugit, delectus harum? (WIP)
                     <a href={prurl} className="mx-2 underline underline-offset-2 decoration-4 hover:text-black hover:bg-gray-400 hover:decoration-slate-400 duration-100">View</a>
                 </div>
             </div>
