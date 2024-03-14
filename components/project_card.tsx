@@ -4,11 +4,12 @@ import Image from "next/image"
 import { Separator } from "./ui/separator"
 
 export function ProjectCard({prurl}:{prurl:string}){
-    const imgurl = "https://raw.githubusercontent.com/rherbin/rherbin.github.io/main/docs/me.png";
-    "https://raw.githubusercontent.com/UserName/NameRepo/Branch/"
+    const imgurl = prurl.replace("github", "raw.githubusercontent")+"/main/cover.PNG"
     return (
-        <div className="rounded-xl border-2 w-96 m-2">
-            <Image src={imgurl} alt="Project image" width={384} height={150} className="m-0 p-0" unoptimized></Image>
+        <div className="rounded-xl border-2 w-96 m-2 overflow-hidden">
+            {/* <div className="w-96 h-40"> */}
+                <Image src={imgurl} alt="Project image" className="object-cover h-40 m-0 p-0" unoptimized width={384} height={150}></Image>
+            {/* </div> */}
             <Separator className="mt-0 pt-0"></Separator>
             <div className="m-4">
                 <h1 className="text-center text-xl font-bold m-4">Project Name</h1>
