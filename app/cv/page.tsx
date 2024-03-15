@@ -12,7 +12,7 @@ export default function Cv(){
                 <div className="border-2 rounded-xl">
 
                     <div className="flex items-center justify-center">
-                        <Image alt="Profile picture" className="rounded-xl border-2 m-4 mr-auto" width={200} height={300} src="/me.png"></Image>
+                        <Image alt="Profile picture" className="rounded-xl border-2 m-4 mr-auto" unoptimized width={200} height={300} src="/me.png"></Image>
                         <div className="text-center mr-auto">
                             <h1 className="m-4 font-bold text-5xl">Rodolphe Herbin</h1>
                             <h2 className="m-2 font-semibold text-3xl text-gray-400">Étudiant</h2>
