@@ -12,7 +12,7 @@ export default function Cv(){
                 <div className="border-2 rounded-xl">
 
                     <div className="flex items-center justify-center">
-                        <Image alt="Profile picture" className="rounded-xl border-2 m-4 mr-auto" unoptimized width={200} height={300} src="/me_black.png"></Image>
+                        <Image alt="Profile picture" className="rounded-xl border-2 m-4 mr-auto" unoptimized width={200} height={300} src="/20240902_165937566_iOS.png"></Image>
                         <div className="text-center mr-auto">
                             <h1 className="m-4 font-bold text-5xl">Rodolphe Herbin</h1>
                             <h2 className="m-2 font-semibold text-3xl text-gray-400">Étudiant</h2>
@@ -22,7 +22,7 @@ export default function Cv(){
                     <Separator className="mx-10 mt-5 mb-8 w-auto"></Separator>
 
                     <div className="flex h-10 space-x-4 items-center text-base m-4 justify-center text-gray-400">
-                        <div>E-mail : rodolpherbin@gmail.com</div>
+                        <div>E-mail : rodolpherbin[at]gmail.com</div>
                         <Separator orientation="vertical" className="m-2"></Separator>
                         <div>Github : <a href="https://github.com/rherbin" target="_blank" className="underline underline-offset-2 decoration-4 hover:text-black hover:bg-gray-400 hover:decoration-slate-400 duration-100">rherbin</a></div>
                         <Separator orientation="vertical" className="m-2"></Separator>
@@ -40,19 +40,19 @@ export default function Cv(){
                             <div className="rounded-xl border-2 my-5 p-4">
                                 <h3 className="m-2 font-semibold text-xl">Programmation</h3>
                                 <div className="p-2">
-                                    <div>Python</div><Progress value={90} className="w-[100%]"></Progress>
+                                    <div>Python</div><Progress value={95} className="w-[100%]"></Progress>
                                 </div>
                                 <div className="p-2">
-                                    <div>C/C++</div><Progress value={70} className="w-[100%]"></Progress>
+                                    <div>C</div><Progress value={70} className="w-[100%]"></Progress>
+                                </div>
+                                <div className="p-2">
+                                    <div>Java</div><Progress value={60} className="w-[100%]"></Progress>
                                 </div>
                                 <div className="p-2">
                                     <div>Javascript/Typescript</div><Progress value={50} className="w-[100%]"></Progress>
                                 </div>
                                 <div className="p-2">
                                     <div>Haskell</div><Progress value={30} className="w-[100%]"></Progress>
-                                </div>
-                                <div className="p-2">
-                                    <div>Rust</div><Progress value={10} className="w-[100%]"></Progress>
                                 </div>
                             </div>
                             
@@ -76,6 +76,7 @@ export default function Cv(){
                                     <li className="p-1">Jeux vidéo</li>
                                     <li className="p-1">Cinéma</li>
                                     <li className="p-1">Finance</li>
+                                    <li className="p-1">Musique</li>
                                 </ul>
                             </div>
                         </div>
@@ -88,7 +89,7 @@ export default function Cv(){
                                 <h2 className="text-2xl m-5 font-bold">Formation</h2>
 
                                 <div className="rounded-xl border-2 m-2 mr-5 p-6">
-                                    <div className="font-bold mb-1">Depuis 2022</div><div>Université Paris Dauphine, Paris 75116</div><div>Licence Mathématiques Informatique</div>
+                                    <div className="font-bold mb-1">Depuis 2022</div><div>Université Paris Dauphine, Paris 75116</div><div>Licence Mathématiques Informatique, filière IM2D</div>
                                 </div>
 
                                 <div className="rounded-xl border-2 m-2 mr-5 p-6">
