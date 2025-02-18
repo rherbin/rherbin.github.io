@@ -26,7 +26,7 @@ const ICSProgress = () => {
       events.forEach((event) => {
         const vevent = new ICAL.Event(event);
         const name = vevent.summary;
-        const start = DateTime.fromJSDate(vevent.startDate.toJSDate());
+        const start = DateTime.fromJSDate(vevent.endDate.toJSDate());
 
         maxStrLen = Math.max(maxStrLen, name.length);
         if (!regrouped[name]) regrouped[name] = [];
