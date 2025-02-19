@@ -58,7 +58,7 @@ const ICSProgress = () => {
   };
 
   const [fileName, setFileName] = useState<string | null>("/ADECal(5).ics");
-  const [threshhold, setThreshold] = useState(1);
+  const [threshhold, setThreshold] = useState(6);
   
   useEffect(() => {
     fetchICS(fileName, threshhold);

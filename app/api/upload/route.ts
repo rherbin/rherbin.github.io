@@ -2,12 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "fs/promises";
 import path from "path";
 
-export const config = {
-  api: {
-    bodyParser: false, // Désactive le bodyParser (même si pas utile ici)
-  },
-};
-
 export async function POST(req: NextRequest) {
   console.log("📩 Nouvelle requête reçue");
 
